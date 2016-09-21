@@ -60,9 +60,22 @@ void __fastcall Player__processTick_Hook(void *this_, int edx, const Move *move)
 	{
 		int thisId = ((int *)this_)[8];
 		const char *argv[3];
+		int inputs = 0;
+		if (move)
+		{
+			if (move->x < -1) ((Move *)move)->x = -0.01f;
+			if (move->x >  1) ((Move *)move)->x =  0.01f;
+			if (move->y < -1) ((Move *)move)->y = -0.01f;
+			if (move->y >  1) ((Move *)move)->y =  0.01f;
+			if (move->x < 0) inputs |= 1;
+			if (move->x > 0) inputs |= 2;
+			if (move->y < 0) inputs |= 4;
+			if (move->y > 0) inputs |= 8;
+			if (move->trigger[2]) inputs |= 16;
+		}
 		argv[0] = "onPlayerProcessTick";
 		argv[1] = Con__getIntArg(thisId);
-		argv[2] = Con__getIntArg(move->id);
+		argv[2] = Con__getIntArg(inputs);
 		Con__execute(3, argv);
 	}
 	return Player__processTick_Detour->GetOriginalFunction()(this_, edx, move);
