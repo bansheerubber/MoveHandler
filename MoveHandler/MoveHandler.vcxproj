@@ -23,7 +23,11 @@
     <RootNamespace>MoveHandler</RootNamespace>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+=======
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+>>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
 =======
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
 >>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
@@ -37,7 +41,11 @@
     <UseDebugLibraries>true</UseDebugLibraries>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PlatformToolset>v142</PlatformToolset>
+=======
+    <PlatformToolset>v140</PlatformToolset>
+>>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
 =======
     <PlatformToolset>v140</PlatformToolset>
 >>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
@@ -51,7 +59,11 @@
     <UseDebugLibraries>false</UseDebugLibraries>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PlatformToolset>v142</PlatformToolset>
+=======
+    <PlatformToolset>v140</PlatformToolset>
+>>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
 =======
     <PlatformToolset>v140</PlatformToolset>
 >>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
@@ -66,7 +78,11 @@
     <UseDebugLibraries>true</UseDebugLibraries>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PlatformToolset>v142</PlatformToolset>
+=======
+    <PlatformToolset>v140</PlatformToolset>
+>>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
 =======
     <PlatformToolset>v140</PlatformToolset>
 >>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
@@ -80,7 +96,11 @@
     <UseDebugLibraries>false</UseDebugLibraries>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <PlatformToolset>v142</PlatformToolset>
+=======
+    <PlatformToolset>v140</PlatformToolset>
+>>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
 =======
     <PlatformToolset>v140</PlatformToolset>
 >>>>>>> f9ebca9f9275f92deda0768883b59b5af7dd56c1
